@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="UTF-8">
+  <title>El Ajolotito</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="shortcut icon" href="assets/img/01-logo.svg" type="image/x-icon">
+
 </head>
+
 <body>
+
+  <body>
+    <section class="fixed-header">
     <header class="header">
-  <!-- Logo con link a la página principal -->
-  <a href="/">
-    <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
-  </a>
-  <!-- Menú de navegación -->
-  <nav class="navbar">
-    <ul>
-      <li>Platform</li>
-      <li>Pricing</li>
-      <li>Customers</li>
-      <li>Resources</li>
-      <li>About</li>
-    </ul>
-  </nav>
-  <!-- Contenedor de acciones de usuario -->
-  <div class="actions">
-    <a>Sign In</a>
-    <button>Start free trial</button>
-  </div>
-</header>
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/01-logo.svg" alt="Logo"></a>
 
-<section class="main">
-    <h1>Build your blog. Build your business.</h1>
-
-    <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</h4>
-
-    <form>
-      <input type="email">
-      <button type="submit" class="texto-boton">
-        Try it now &rarr;
-      </button>
-    </form>
-
-    <p class="texto-promocional">Start publishing today with a <strong>free 7-day trial.</strong></p>
-    <p class="texto-promocional"><strong>No credit card</strong> required.</p>
-
-    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Captcha de Capterra">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Recetas</a></li>
+          <li><a href="#">Ubicanos</a></li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <a href="#" class="order-button">Ordenar</a>
+        <a href="#" class="register-button">Registrarse</a>
+      </div>
+    </header>
   </section>
+    <div class="banner">
+      <h1>El Ajolotito</h1>
+    </div>
+   
 
-</body>
+    <section class="promo">
+      <article class="explanatory-video">
+       <video controls poster="assets/img/03-crepa-fresa.jpg" width="600px" height="400px">
+        <source type="video/webm" src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm">
+        <source type="video/mp4" src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
+       </video>
+      </article>
+
+      <article class="publish">
+        <h3>Publish to your blog in minutes, not hours.</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sed modi soluta dolor quos velit, beatae nesciunt perferendis veniam neque amet libero molestias accusamus ut doloremque quam excepturi, magnam qui!</p>
+        <div>
+          <p>Start publishing today:</p>
+          <form class="signup-form">
+            <input type="email" placeholder="Enter email">
+            <button>Start My Trial</button>
+          </form>
+
+        </div>
+      </article>
+    </section>
+    <section>
+  </body>
+
 </html>
